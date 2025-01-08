@@ -1,0 +1,16 @@
+annotated-types==0.7.0
+fastapi==0.115.5
+httptools==0.1.2
+passlib==1.7.4
+prometheus-client==0.20.0
+prometheus-fastapi-instrumentator==7.0.0
+psutil==6.0.0
+psycopg2-binary==2.9.10
+pydantic==2.10.2
+python-jose==3.3.0
+python-multipart==0.0.19
+requests==2.32.3
+SQLAlchemy==2.0.36
+starlette==0.41.3
+typing-extensions==4.12.2
+uvicorn==0.11.3

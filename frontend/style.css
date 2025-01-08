@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+ }
+  
+ .container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ }
+  
+ header h1 {
+    color: #343a40;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+ }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .table {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .table thead {
+    background-color: #f8f9fa;
+  }
+  
+  .table th, .table td {
+    vertical-align: middle;
+    padding: 12px 15px;
+  }
+  
+  #employee-table-body tr:hover {
+    background-color: #f1f3f5;
+    transition: background-color 0.3s ease;
+  }
+  
+  #edit-form {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 25px;
+  }
+  
+  #edit-form h2 {
+    color: #343a40;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-label {
+    font-weight: 600;
+    color: #495057;
+  }
+  
+  .form-control {
+    border-color: #ced4da;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: white;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    .table-responsive {
+      font-size: 0.9rem;
+    }
+  }
